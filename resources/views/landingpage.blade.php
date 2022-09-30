@@ -76,11 +76,11 @@
                             </li>
 
                             <li>
-                                <a href="#">Login</a>
-                                <ul class="sub-menu">
+                                <a href="#" data-id="login">Login</a>
+                                <ul class="sub-menu" data-id="sub-menu-login">
                                     <li><a href="" data-bs-toggle="modal"
                                             data-bs-target="#loginpelanggan">Pelanggan</a></li>
-                                    <li><a href="" data-bs-toggle="modal" data-bs-target="#loginadmin">Admin</a>
+                                    <li><a href="" data-bs-toggle="modal" data-bs-target="#loginadmin" data-id="admin-button">Admin</a>
                                     </li>
                                 </ul>
                             </li>
@@ -128,7 +128,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-sm">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Login Sebagai Admin</h5>
+                            <h5 class="modal-title" id="exampleModalLabel" data-id="label-modal-admin">Login Sebagai Admin</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                 aria-label="Close"></button>
                         </div>
@@ -136,18 +136,18 @@
                             <div class="container mb-3 mt-3">
                                 <div class="form-floating mb-3">
                                     <input type="email" class="form-control" id="floatingInput"
-                                        placeholder="name@example.com" name="email">
+                                        placeholder="name@example.com" name="email" data-id="email_admin">
                                     <label for="floatingInput">Email address</label>
                                 </div>
                                 <div class="form-floating">
                                     <input type="password" class="form-control" id="floatingPassword"
-                                        placeholder="Password" name="password">
+                                        placeholder="Password" name="password" data-id="pass_admin">
                                     <label for="floatingPassword">Password</label>
                                 </div>
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-success">Login</button>
+                            <button type="submit" class="btn btn-success" data-id="login-button">Login</button>
                         </div>
                     </div>
                 </div>

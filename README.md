@@ -1,4 +1,5 @@
 # suluk-bookstore
+* with feature testing on Book Master Table
 
 by Ahmad Rafif Alaudin and Fauzan Pradana
 
